@@ -1,0 +1,200 @@
+---
+title: Variables
+---
+
+## Names & Descriptions
+
+This table provides brief descriptions of each variable used in the project. It is intended as a quick reference for understanding what each variable represents.
+
+::: {.callout-note title="Variable Availability by Year"}
+Unless otherwise noted, variables are available for survey years 1987, 1993, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, and 2024.
+:::
+
+| Variable Name | Description |
+|----|----|
+| `id` | Respondent ID number |
+| `birth_year` | Respondent’s year of birth |
+| `survey_year` | Survey year for this respondent |
+| `age` | Respondent’s age |
+| `age_group` | Respondent’s age group |
+| `sex` | Respondent’s sex |
+| `reg16` | Respondent’s region of residence at age 16 |
+| `region` | Respondent’s region at time of interview |
+| `born` | Whether respondent was born in the United States |
+| `parborn` | Whether respondent’s parents were born in the United States |
+| `granborn` | Number of respondent’s grandparents born in the United States |
+| `wrkstat` | Respondent’s labor force status |
+| `yearsjob` | Number of years respondent has been at current job |
+| `moredays` | Number of days per month respondent works extra hours beyond usual schedule |
+| `hrsrelax` | Number of hours respondent has to relax or pursue enjoyable activities |
+| `wwwhr` | Hours per week respondent spends browsing the internet (excluding email) |
+| `tvhours` | Hours per day respondent spends watching television |
+| `hsbio` | Whether respondent took a high school biology course |
+| `hschem` | Whether respondent took a high school chemistry course |
+| `hsmath` | Highest level of math completed by respondent in high school |
+|  | Whether respondent took a high school physics course |
+| `hsclass1` | Respondent’s favorite high school course |
+| `dipged` | Type of high school credential earned by respondent |
+| `educ` | Highest year of school completed by respondent |
+| `degree` | Respondent’s highest degree earned |
+| `coldeg1` | Highest college degree earned by respondent |
+| `majorcol` | Field of respondent’s college degree |
+| `colsci` | Whether respondent has taken any college-level science course |
+| `whencol` | Year respondent received highest college degree |
+| `voedcol` | Whether respondent completed non-college postsecondary education |
+| `paeduc` | Highest year of school completed by respondent’s father (or oldest same-sex parent) |
+| `maeduc` | Highest year of school completed by respondent’s mother (or youngest same-sex parent) |
+| `padeg` | Highest degree earned by respondent’s father (or oldest same-sex parent) |
+| `madeg` | Highest degree earned by respondent’s mother (or youngest same-sex parent) |
+| `coneduc` | Respondent’s confidence in the education system |
+| `nateduc` | Opinion on improving the nation’s education system |
+| `natenvir` | Opinion on improving and protecting the environment |
+| `happy` | Respondent’s general happiness |
+| `happy7` | Respondent’s self-reported happiness level |
+| `hapunhap` | Whether respondent is happy or unhappy with life today |
+| `goodlife` | Whether respondent believes their standard of living will improve |
+| `opclout` | Belief that political connections are needed to get ahead |
+| `ophrddwrk` | Belief that working hard is needed to get ahead |
+| `opknow` | Belief that knowing the right people is needed to get ahead |
+| `opwlth` | Belief that coming from a wealthy family is needed to get ahead |
+| `opeduc` | Belief that a good education is needed to get ahead |
+
+## Categories & Years
+
+This table groups variables by topic area and indicates the survey years in which each variable is available. It can be used to identify which variables support comparisons across time.
+
+| Category | Variable | Years Available |
+|----|----|----|
+| **Identifiers & Administrative** |  |  |
+|  | `id` | All |
+|  | `survey_year` | All |
+|  | `birth_year` | All |
+| **Age & Demographics** |  |  |
+|  | `age` | All |
+|  | `age_group` | All |
+|  | `sex` | All |
+| **Geographic Background** |  |  |
+|  | `region` | All |
+|  | `reg16` | All |
+| **Nativity & Family Background** |  |  |
+|  | `born` | All |
+|  | `parborn` | All |
+|  | `granborn` | All |
+| **Employment, Work, & Time Use** |  |  |
+|  | `wrkstat` | All |
+|  | `yearsjob` | 2002, 2006, 2010, 2014, 2018, 2022 |
+|  | `moredays` | 2002, 2006, 2010, 2014, 2018, 2022 |
+|  | `hrsrelax` | 2002, 2006, 2010, 2014, 2018, 2022 |
+| **Technology & Media Use** |  |  |
+|  | `wwwhr` | 2000, 2002, 2004, 2006, 2010, 2012, 2014, 2016, 2018, 2021, 2022 |
+|  | `tvhours` | All |
+| **Education (Respondent)** |  |  |
+|  | `educ` | 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+|  | `degree` | 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+|  | `coldeg1` | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+|  | `majorcol` | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+|  | `colsci` | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+|  | `whencol` | 2012, 2014, 2016 |
+|  | `voedcol` | 2012, 2014, 2016 |
+|  | `dipged` | 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+|  | `hsclass1` | 1993 |
+| **Education (High School Coursework)** |  |  |
+|  | `hsbio` | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+|  | `hschem` | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+|  | `hsmath` | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+|  | `hsphys` | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| **Education (Parental Background)** |  |  |
+|  | `paeduc` | All |
+|  | `maeduc` | All |
+|  | `padeg` | All |
+|  | `madeg` | All |
+| **Education & Public Institutions (Attitudes)** |  |  |
+|  | `coneduc` | All |
+|  | `nateduc` | All |
+| **Environment & Public Policy Attitudes** |  |  |
+|  | `natenvir` | All |
+| **Happiness & Well-Being** |  |  |
+|  | `happy` | All |
+|  | `happy7` | 2002, 2012, 2022 |
+|  | `hapunhap` | 2002, 2008, 2018 |
+|  | `goodlife` | All |
+| **Social Mobility & Opportunity Beliefs** |  |  |
+|  | `opclout` | 1987, 2021 |
+|  | `ophrddwrk` | 1987, 2021 |
+|  | `opknow` | 1987, 2000, 2021 |
+|  | `opwlth` | 1987, 2000, 2021 |
+|  | `opeduc` | 1987, 2021 |
+
+## Survey Questions & Years
+
+This table maps each variable to the original survey question and lists the years in which the question was asked. It helps clarify how variables were measured and when they appear in the dataset.
+
+| Variable | Survey Question | Years Asked |
+|----|----|----|
+| `id` | Administrative identifier; not a survey question. | All |
+| `birth_year` | Derived from age and survey year; not asked directly. | All |
+| `survey_year` | Administrative variable indicating year of interview. | All |
+| `age` | What is your age? | All |
+| `age_group` | Derived from respondent age; not asked directly. | All |
+| `sex` | What is your sex? | All |
+| `reg16` | In what region did you live when you were 16 years old? | All |
+| `region` | In what region do you currently live? | All |
+| `born` | Were you born in the United States? | All |
+| `parborn` | Were your parents born in the United States? | All |
+| `granborn` | How many of your grandparents were born outside the United States? | All |
+| `wrkstat` | What is your current labor force status? | All |
+| `yearsjob` | How many years have you been working at your current job? | 2002, 2006, 2010, 2014, 2018, 2022 |
+| `moredays` | About how many days per month do you work extra hours beyond your usual schedule? | 2002, 2006, 2010, 2014, 2018, 2022 |
+| `hrsrelax` | About how many hours do you have to relax or pursue activities that you enjoy? | 2002, 2006, 2010, 2014, 2018, 2022 |
+| `wwwhr` | On average, how many hours per week do you use the Internet for browsing, not counting email? | 2000, 2002, 2004, 2006, 2010, 2012, 2014, 2016, 2018, 2021, 2022 |
+| `tvhours` | On average, how many hours per day do you watch television? | All |
+| `hsbio` | Did you take a biology course in high school? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `hschem` | Did you take a chemistry course in high school? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `hsmath` | What is the highest level of mathematics you completed in high school? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `hsphys` | Did you take a physics course in high school? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `hsclass1` | When you were in high school, what was your favorite course or subject? | 1993 |
+| `dipged` | Which best describes the credential you received from high school? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `educ` | What is the highest year of school you have completed? | 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+| `degree` | What is the highest degree you have earned? | 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+| `coldeg1` | What is the highest college degree you have earned? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `majorcol` | What was your major or field of study for your college degree? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `colsci` | Have you ever taken a college-level science course? | 2006, 2008, 2010, 2012, 2014, 2016, 2018 |
+| `whencol` | In what year did you receive your college degree? | 2012, 2014, 2016 |
+| `voedcol` | Have you completed any non-college postsecondary education? | 2012, 2014, 2016 |
+| `paeduc` | What is the highest year of school completed by your father (or oldest same-sex parent)? | All |
+| `maeduc` | What is the highest year of school completed by your mother (or youngest same-sex parent)? | All |
+| `padeg` | What is the highest degree earned by your father (or oldest same-sex parent)? | All |
+| `madeg` | What is the highest degree earned by your mother (or youngest same-sex parent)? | All |
+| `coneduc` | How much confidence do you have in the education system? | All |
+| `nateduc` | Are we spending too much, too little, or about the right amount on improving the nation’s education system? | All |
+| `natenvir` | Are we spending too much, too little, or about the right amount on improving and protecting the environment? | All |
+| `happy` | Taken all together, how would you say things are these days? | All |
+| `happy7` | Taking all things together, how happy would you say you are these days? | 2002, 2012, 2022 |
+| `hapunhap` | Would you say you are generally happy or unhappy with your life today? | 2002, 2008, 2018 |
+| `goodlife` | Do you think your standard of living will get better, worse, or stay about the same? | All |
+| `opclout` | How important is having political connections for getting ahead in life? | 1987, 2021 |
+| `ophrddwrk` | How important is working hard for getting ahead in life? | 1987, 2021 |
+| `opknow` | How important is knowing the right people for getting ahead in life? | 1987, 2000, 2021 |
+| `opwlth` | How important is coming from a wealthy family for getting ahead in life? | 1987, 2000, 2021 |
+| `opeduc` | How important is having a good education for getting ahead in life? | 1987, 2021 |
+
+## Missing & Non-Substantive Codes
+
+This section describes codes used to represent missing, inapplicable, or non-substantive responses in the GSS. Missing and non-substantive codes appear in survey data when a question does not apply to a respondent, was skipped, or could not be answered. These values are not errors.
+
+Some missing values occur because a question was never asked (for example, it was not included in a particular survey year), while others reflect meaningful responses such as “don’t know” or “not applicable.”
+
+When analyzing the data, these codes should be handled intentionally. In most cases, they should be excluded from summaries and visualizations, rather than treated as valid responses.
+
+| Code | Meaning | Notes & When It Appears |
+|----|----|----|
+| `NaN` | Missing value (numeric) | Pandas missing value; appears in numeric columns |
+| `.i:  Inapplicable` | Inapplicable | Question does not apply due to skip patterns or survey design |
+| `.n:  No answer` | No answer | Question was asked, but no valid response recorded |
+| `.d:  Do not Know/Cannot Choose` | Don’t know / cannot choose | Respondent could not or would not provide a substantive answer |
+| `.s:  Skipped on Web` | Skipped on web | Respondent skipped the question in web-based surveys |
+| `.y:  Not available in this year` | Not asked in this year | Variable not included in that survey year |
+
+::: {.callout-note title="Working with Missing Values"}
+Missing and non-substantive codes are not errors. They indicate when a question did not apply, was skipped, or could not be answered. These values should usually be excluded from summaries and visualizations.
+:::

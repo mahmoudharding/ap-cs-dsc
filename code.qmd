@@ -1,0 +1,26 @@
+# Code Reference
+
+## Python Libraries Used
+
+Python libraries are collections of prewritten code that support common tasks. This project uses `pandas` for data analysis and `matplotlib` for data visualization.
+
+### Pandas
+
+`pandas` is a Python library used for working with structured, tabular data. It provides tools for loading datasets, selecting and transforming variables, computing summary statistics, and preparing data for analysis.
+
+### Matplotlib
+
+`matplotlib` is a Python library used for creating visual representations of data. In this project, it is used to generate charts and graphs to explore distributions, compare groups, and examine trends.
+
+## Common Data Structures
+
+-   lists
+-   dictionaries
+-   DataFrames
+
+## Common Methods and Functions
+
+-   Reading data
+-   Filtering rows
+-   Grouping and summarizing
+-   Creating plots

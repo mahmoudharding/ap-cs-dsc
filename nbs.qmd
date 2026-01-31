@@ -1,0 +1,33 @@
+# Notebooks
+
+## Jupyter Notebooks
+
+This project is implemented using Jupyter notebooks, which serve as the primary workspace for data analysis. Jupyter notebooks combine code, text, and visual output in a single environment.
+
+A reference guide summarizing the Python libraries, functions, and methods used across the notebooks is provided later in this guide.
+
+## Notebook Descriptions
+
+### Notebook 1: Introduction to Jupyter Notebooks (Optional)
+
+Introduces the Jupyter notebook environment and basic workflow, including running cells, editing code, and formatting text.
+
+### Notebook 2: Basic Python and Data Structures
+
+Introduces Python data structures for students transitioning from Java, with a focus on lists, dictionaries, and iteration as tools for working with data.
+
+### Notebook 3: Pandas and Basic Data Exploration
+
+Introduces Pandas for loading datasets, inspecting variables, and computing basic summary statistics.
+
+### Notebook 4: Visualizing Distributions
+
+Introduces Matplotlib for creating visualizations to explore and interpret the distribution of numerical variables.
+
+### Notebook 5: Visualizing Trends
+
+Examines patterns and trends over time using computational tools and visual evidence.
+
+### Notebook 6: Exploring Relationships and Trends
+
+Emphasizes student choice by allowing students to explore questions of interest, investigate relationships between variables, and support claims with data.

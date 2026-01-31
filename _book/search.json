@@ -1,0 +1,532 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "",
+    "text": "This resource is intended for high school computer science teachers seeking to extend student learning beyond AP Computer Science courses. It provides a teacher-facing guide for the After the AP Capstone.The materials for the capstone are designed for students who have completed AP Computer Science Principles or AP Computer Science A, or who have comparable experience with text-based programming.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Purpose\nThis resource is a teacher guide for a data investigation project designed to extend student learning beyond AP Computer Science courses. The guide supports high school computer science teachers in planning and facilitating a data science project that builds on students’ prior programming experience and does not assume prior coursework in statistics or data science.\nIt explains the structure of the project, the dataset used, and the types of analyses students are expected to pursue. The project is intended for students who have completed AP Computer Science Principles or AP Computer Science A, or who have comparable experience with text-based programming.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Hunter, John D. 2007. “Matplotlib: A 2D Graphics\nEnvironment.” Computing in Science & Engineering 9\n(3): 90–95. https://matplotlib.org/.\n\n\nKim, Albert Y., Chester Ismay, and Jennifer Chunn. 2018. “The\nFivethirtyeight r Package: ’Tame Data’ Principles for Introductory\nStatistics and Data Science Courses.” Technology Innovations\nin Statistics Education 11 (1). https://escholarship.org/uc/item/0rx1231m.\n\n\nMcKinney, Wes. 2010. “Data Structures for Statistical Computing in\nPython.” Proceedings of the 9th Python in Science\nConference, 56–61. https://doi.org/10.25080/Majora-92bf1922-00a.\n\n\nStokes, David J., and Mahmoud Harding. 2025. “A Project-Based\nApproach to Introductory R and Python for Data\nScience.” https://djstokes02.github.io/IntroRPython4DS/.\n\n\nWickham, Hadley. 2014. “Tidy Data.” Journal of\nStatistical Software 59. https://doi.org/10.18637/jss.v059.i10.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#after-the-ap-computer-science-capstone",
+    "href": "index.html#after-the-ap-computer-science-capstone",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "After the AP Computer Science Capstone",
+    "text": "After the AP Computer Science Capstone\nThis resource supports high school computer science teachers in extending student learning beyond AP Computer Science A. It provides a set of Jupyter notebooks that emphasize data investigation and analysis while reinforcing core programming practices aligned with the CSTA 3.0 Standards.\nThe materials are intended for students who have completed AP CS A or who have comparable experience with text-based programming.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "Purpose",
+    "text": "Purpose\nThis resource extends typical AP Computer Science A experiences by emphasizing the use of programming for data investigation and analysis. Students apply familiar programming constructs to explore real-world data, identify patterns, and communicate findings, without introducing new programming paradigms.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#dataset-general-social-survey-gss",
+    "href": "index.html#dataset-general-social-survey-gss",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "Dataset: General Social Survey (GSS)",
+    "text": "Dataset: General Social Survey (GSS)\nAll notebooks use data from the General Social Survey (GSS), a nationally representative survey of U.S. adults conducted since 1972 and funded by the National Science Foundation.\nThe GSS includes demographic, behavioral, and attitudinal variables covering topics such as public opinion, social mobility, well-being, and civil liberties. Its breadth and longitudinal structure make it well suited for student data investigations that are both meaningful and interpretable.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#standards-alignment",
+    "href": "index.html#standards-alignment",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "Standards Alignment",
+    "text": "Standards Alignment\nThe notebooks align with CSTA 3.0, with emphasis on:\n\nProgramming — applying control structures, data structures, and functions in data contexts\n\nData & Analysis — transforming, analyzing, and interpreting data to answer questions\n\nThe focus is on using existing programming knowledge in new contexts.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-resource",
+    "href": "index.html#how-to-use-this-resource",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "How to Use This Resource",
+    "text": "How to Use This Resource\nThese materials may be used as:\n\nA post-AP CS A unit\n\nAn extension alongside or after a capstone experience\n\nA bridge to data-focused projects or courses\n\nEach notebook is modular, adaptable, and does not assume prior coursework in statistics or data science.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html#purpose",
+    "href": "intro.html#purpose",
+    "title": "Introduction",
+    "section": "",
+    "text": "Data Science Tools Used\n\n\n\nThis project uses Python with the pandas library for data manipulation (McKinney 2010) and the matplotlib library for data visualization (Hunter 2007).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#dataset-general-social-survey-gss",
+    "href": "intro.html#dataset-general-social-survey-gss",
+    "title": "1  Introduction",
+    "section": "1.3 Dataset: General Social Survey (GSS)",
+    "text": "1.3 Dataset: General Social Survey (GSS)\nAll notebooks use data from the General Social Survey (GSS), a nationally representative survey of U.S. adults conducted since 1972 and funded by the National Science Foundation.\nThe GSS includes demographic, behavioral, and attitudinal variables covering topics such as public opinion, social mobility, well-being, and civil liberties. Its breadth and longitudinal structure make it well suited for student data investigations that are both meaningful and interpretable.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#standards-alignment",
+    "href": "intro.html#standards-alignment",
+    "title": "Introduction",
+    "section": "Standards Alignment",
+    "text": "Standards Alignment\nThe project aligns with both the Programming and Data & Analysis topics from the Computer Science Teachers Association (CSTA) Standards and the Data Science Learning Progressions.\n\n\n\n\nHunter, John D. 2007. “Matplotlib: A 2D Graphics Environment.” Computing in Science & Engineering 9 (3): 90–95. https://matplotlib.org/.\n\n\nMcKinney, Wes. 2010. “Data Structures for Statistical Computing in Python.” Proceedings of the 9th Python in Science Conference, 56–61. https://doi.org/10.25080/Majora-92bf1922-00a.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#how-to-use-this-resource",
+    "href": "intro.html#how-to-use-this-resource",
+    "title": "1  Introduction",
+    "section": "1.5 How to Use This Resource",
+    "text": "1.5 How to Use This Resource\nThese materials may be used as:\n\nA post-AP CS A unit\n\nAn extension alongside or after a capstone experience\n\nA bridge to data-focused projects or courses\n\nEach notebook is modular, adaptable, and does not assume prior coursework in statistics or data science. # Introduction\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "",
+    "text": "This resource is intended for high school computer science teachers seeking to extend student learning beyond AP Computer Science courses. It provides a teacher-facing guide for a data investigation project.\nThe materials are designed for students who have completed AP Computer Science Principles or AP Computer Science A, or who have comparable experience with text-based programming.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#test",
+    "href": "index.html#test",
+    "title": "After the AP Computer Science Data Science Capstone",
+    "section": "Test",
+    "text": "Test\nThis resource is intended for high school computer science teachers seeking to extend student learning beyond AP Computer Science courses. It provides a teacher-facing guide for a data investigation project.\nThe materials are designed for students who have completed AP Computer Science Principles or AP Computer Science A, or who have comparable experience with text-based programming.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html#dataset",
+    "href": "intro.html#dataset",
+    "title": "Introduction",
+    "section": "Dataset",
+    "text": "Dataset\nThe project uses data from the General Social Survey (GSS). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the National Opinion Research Center (NORC), the non-partisan and objective research organization at the University of Chicago. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.\nThe GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are education, civil liberties, national spending priorities, psychological well-being, and social mobility. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "Dataset",
+    "section": "",
+    "text": "General Social Survey\nThe project uses data from the General Social Survey (GSS). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the National Opinion Research Center (NORC), the non-partisan and objective research organization at the University of Chicago. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.\nThe GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are education, civil liberties, national spending priorities, psychological well-being, and social mobility. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Dataset</span>"
+    ]
+  },
+  {
+    "objectID": "dataset.html#dataset",
+    "href": "dataset.html#dataset",
+    "title": "2  Introduction",
+    "section": "2.2 Dataset",
+    "text": "2.2 Dataset\nThe project uses data from the General Social Survey (GSS). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the National Opinion Research Center (NORC), the non-partisan and objective research organization at the University of Chicago. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.\nThe GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are education, civil liberties, national spending priorities, psychological well-being, and social mobility. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "dataset.html#standards-alignment",
+    "href": "dataset.html#standards-alignment",
+    "title": "2  Introduction",
+    "section": "2.3 Standards Alignment",
+    "text": "2.3 Standards Alignment\nThe project aligns with both the Programming and Data & Analysis topics from the Computer Science Teachers Association (CSTA) Standards and the Data Science Learning Progressions.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "dataset.html#general-social-survey-1",
+    "href": "dataset.html#general-social-survey-1",
+    "title": "2  Dataset",
+    "section": "2.2 General Social Survey",
+    "text": "2.2 General Social Survey\nCurrently, the GSS is designed by a set of Primary Investigators (PIs), with input from the GSS Board, comprised of notable researchers within the scientific community.\nHowever, due to the global COVID19 pandemic, the 2021 GSS Cross-section implemented significant methodological adaptations for the safety of respondents and interviewers, most notably shifting to an address-based sampling with push to web and a web self-administered questionnaire. The 2022 GSS Cross-section bridges the traditional face-to-face data collection of the GSS from 1972-2018 with the web-based collection of 2021, keeping many of the questionnaire changes brought about by the new mode, while reverting to a mixed mode data collection that include face to face, web and telephone. The 2022 GSS was designed to facilitate a comparison to the 2018 GSS; that is, the 2022 study aimed to resemble the 2018 GSS. Additionally, the 2022 GSS retained several methodological experiments conducted in the 2021 GSS that are specific to the web mode. The 2022 GSS is the first round of a multi-round transition to a mixed-mode survey, fielded both face-to-face and via web self-administered questionnaire.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Dataset</span>"
+    ]
+  },
+  {
+    "objectID": "dataset.html#background-methodology",
+    "href": "dataset.html#background-methodology",
+    "title": "2  Dataset",
+    "section": "2.2 Background & Methodology",
+    "text": "2.2 Background & Methodology\nThe GSS is a nationally representative series of cross-sectional interviews conducted in the United States since 1972. By adapting questions from earlier surveys, the GSS enables comparisons across decades. Originally proposed by James A. Davis, the survey has been administered by NORC at the University of Chicago and funded by the NSF since its inception. The GSS is currently designed by a set of Primary Investigators, with guidance from a Board of researchers.\nIn response to the COVID-19 pandemic, the 2021 GSS implemented methodological changes, including a shift to address-based sampling with a push-to-web, self-administered questionnaire. The 2022 GSS was designed as a bridge between the traditional face-to-face data collection used from 1972–2018 and the web-based approach introduced in 2021. It retained many questionnaire changes from the web mode while returning to a mixed-mode design that included face-to-face, web, and telephone data collection. The 2022 GSS was structured to facilitate comparison with the 2018 GSS and represents the first stage of a broader transition to a mixed-mode survey.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Dataset</span>"
+    ]
+  },
+  {
+    "objectID": "dataset.html#about-the-general-social-survey",
+    "href": "dataset.html#about-the-general-social-survey",
+    "title": "Dataset",
+    "section": "About the General Social Survey",
+    "text": "About the General Social Survey\nThe GSS is a nationally representative series of cross-sectional interviews conducted in the United States since 1972. By adapting questions from earlier surveys, the GSS enables comparisons across decades. Originally proposed by James A. Davis, the survey has been administered by NORC at the University of Chicago and funded by the NSF since its inception. The GSS is currently designed by a set of Primary Investigators, with guidance from a Board of researchers.\nIn response to the COVID-19 pandemic, the 2021 GSS implemented methodological changes, including a shift to address-based sampling with a push-to-web, self-administered questionnaire. The 2022 GSS was designed as a bridge between the traditional face-to-face data collection used from 1972–2018 and the web-based approach introduced in 2021. It retained many questionnaire changes from the web mode while returning to a mixed-mode design that included face-to-face, web, and telephone data collection. The 2022 GSS was structured to facilitate comparison with the 2018 GSS and represents the first stage of a broader transition to a mixed-mode survey.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Dataset</span>"
+    ]
+  },
+  {
+    "objectID": "variables.html",
+    "href": "variables.html",
+    "title": "3  Variables",
+    "section": "",
+    "text": "Variable Name\nDescription\n\n\n\n\nid\nRespondent ID number\n\n\nbirth_year\nRespondent’s year of birth\n\n\nsurvey_year\nSurvey year for this respondent\n\n\nage\nRespondent’s age\n\n\nage_group\nRespondent’s age group\n\n\nsex\nRespondent’s sex\n\n\nreg16\nRespondent’s region of residence at age 16\n\n\nregion\nRespondent’s region at time of interview\n\n\nborn\nWhether respondent was born in the United States\n\n\nparborn\nWhether respondent’s parents were born in the United States\n\n\ngranborn\nNumber of respondent’s grandparents born in the United States\n\n\nwrkstat\nRespondent’s labor force status\n\n\nyearsjob\nNumber of years respondent has been at current job\n\n\nmoredays\nNumber of days per month respondent works extra hours beyond usual schedule\n\n\nhrsrelax\nNumber of hours respondent has to relax or pursue enjoyable activities\n\n\nwwwhr\nHours per week respondent spends browsing the internet (excluding email)\n\n\ntvhours\nHours per day respondent spends watching television\n\n\nhsbio\nWhether respondent took a high school biology course\n\n\nhschem\nWhether respondent took a high school chemistry course\n\n\nhsmath\nHighest level of math completed by respondent in high school\n\n\nhsphys\nWhether respondent took a high school physics course\n\n\nhsclass1\nRespondent’s favorite high school course\n\n\ndipged\nType of high school credential earned by respondent\n\n\neduc\nHighest year of school completed by respondent\n\n\ndegree\nRespondent’s highest degree earned\n\n\ncoldeg1\nHighest college degree earned by respondent\n\n\nmajorcol\nField of respondent’s college degree\n\n\ncolsci\nWhether respondent has taken any college-level science course\n\n\nwhencol\nYear respondent received highest college degree\n\n\nvoedcol\nWhether respondent completed non-college postsecondary education\n\n\npaeduc\nHighest year of school completed by respondent’s father (or oldest same-sex parent)\n\n\nmaeduc\nHighest year of school completed by respondent’s mother (or youngest same-sex parent)\n\n\npadeg\nHighest degree earned by respondent’s father (or oldest same-sex parent)\n\n\nmadeg\nHighest degree earned by respondent’s mother (or youngest same-sex parent)\n\n\nconeduc\nRespondent’s confidence in the education system\n\n\nnateduc\nOpinion on improving the nation’s education system\n\n\nnatenvir\nOpinion on improving and protecting the environment\n\n\nhappy\nRespondent’s general happiness\n\n\nhappy7\nRespondent’s self-reported happiness level\n\n\nhapunhap\nWhether respondent is happy or unhappy with life today\n\n\ngoodlife\nWhether respondent believes their standard of living will improve\n\n\nopclout\nBelief that political connections are needed to get ahead\n\n\nophrddwrk\nBelief that working hard is needed to get ahead\n\n\nopknow\nBelief that knowing the right people is needed to get ahead\n\n\nopwlth\nBelief that coming from a wealthy family is needed to get ahead\n\n\nopeduc\nBelief that a good education is needed to get ahead",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Variables</span>"
+    ]
+  },
+  {
+    "objectID": "var-by-cat.html",
+    "href": "var-by-cat.html",
+    "title": "4  Variable Categories & Years",
+    "section": "",
+    "text": "Note: Included years are 1987, 1993, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\n\n\n\n\n\nCategory\nVariable\nYears Available\n\n\n\n\nIdentifiers & Administrative\n\n\n\n\n\nid\nAll\n\n\n\nsurvey_year\nAll\n\n\n\nbirth_year\nAll\n\n\nAge & Demographics\n\n\n\n\n\nage\nAll\n\n\n\nage_group\nAll\n\n\n\nsex\nAll\n\n\nGeographic Background\n\n\n\n\n\nregion\nAll\n\n\n\nreg16\nAll\n\n\nNativity & Family Background\n\n\n\n\n\nborn\nAll\n\n\n\nparborn\nAll\n\n\n\ngranborn\nAll\n\n\nEmployment, Work, & Time Use\n\n\n\n\n\nwrkstat\nAll\n\n\n\nyearsjob\n2002, 2006, 2010, 2014, 2018, 2022\n\n\n\nmoredays\n2002, 2006, 2010, 2014, 2018, 2022\n\n\n\nhrsrelax\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nTechnology & Media Use\n\n\n\n\n\nwwwhr\n2000, 2002, 2004, 2006, 2010, 2012, 2014, 2016, 2018, 2021, 2022\n\n\n\ntvhours\nAll\n\n\nEducation (Respondent)\n\n\n\n\n\neduc\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\ndegree\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\ncoldeg1\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nmajorcol\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\ncolsci\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nwhencol\n2012, 2014, 2016\n\n\n\nvoedcol\n2012, 2014, 2016\n\n\n\ndipged\n2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\nhsclass1\n1993\n\n\nEducation (High School Coursework)\n\n\n\n\n\nhsbio\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nhschem\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nhsmath\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nhsphys\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nEducation (Parental Background)\n\n\n\n\n\npaeduc\nAll\n\n\n\nmaeduc\nAll\n\n\n\npadeg\nAll\n\n\n\nmadeg\nAll\n\n\nEducation & Public Institutions (Attitudes)\n\n\n\n\n\nconeduc\nAll\n\n\n\nnateduc\nAll\n\n\nEnvironment & Public Policy Attitudes\n\n\n\n\n\nnatenvir\nAll\n\n\nHappiness & Well-Being\n\n\n\n\n\nhappy\nAll\n\n\n\nhappy7\n2002, 2012, 2022\n\n\n\nhapunhap\n2002, 2008, 2018\n\n\n\ngoodlife\nAll\n\n\nSocial Mobility & Opportunity Beliefs\n\n\n\n\n\nopclout\n1987, 2021\n\n\n\nophrddwrk\n1987, 2021\n\n\n\nopknow\n1987, 2000, 2021\n\n\n\nopwlth\n1987, 2000, 2021\n\n\n\nopeduc\n1987, 2021",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variable Categories & Years</span>"
+    ]
+  },
+  {
+    "objectID": "var.html",
+    "href": "var.html",
+    "title": "Variables",
+    "section": "",
+    "text": "Names & Descriptions\nThis table provides brief descriptions of each variable used in the project. It is intended as a quick reference for understanding what each variable represents.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variables</span>"
+    ]
+  },
+  {
+    "objectID": "var-survey.html",
+    "href": "var-survey.html",
+    "title": "5  Survey Questions, Variables, & Years",
+    "section": "",
+    "text": "Note: Included years are 1987, 1993, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\n\n\n\n\n\nVariable\nSurvey Question\nYears Asked\n\n\n\n\nid\nAdministrative identifier; not a survey question.\nAll\n\n\nbirth_year\nDerived from age and survey year; not asked directly.\nAll\n\n\nsurvey_year\nAdministrative variable indicating year of interview.\nAll\n\n\nage\nWhat is your age?\nAll\n\n\nage_group\nDerived from respondent age; not asked directly.\nAll\n\n\nsex\nWhat is your sex?\nAll\n\n\nreg16\nIn what region did you live when you were 16 years old?\nAll\n\n\nregion\nIn what region do you currently live?\nAll\n\n\nborn\nWere you born in the United States?\nAll\n\n\nparborn\nWere your parents born in the United States?\nAll\n\n\ngranborn\nHow many of your grandparents were born outside the United States?\nAll\n\n\nwrkstat\nWhat is your current labor force status?\nAll\n\n\nyearsjob\nHow many years have you been working at your current job?\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nmoredays\nAbout how many days per month do you work extra hours beyond your usual schedule?\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nhrsrelax\nAbout how many hours do you have to relax or pursue activities that you enjoy?\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nwwwhr\nOn average, how many hours per week do you use the Internet for browsing, not counting email?\n2000, 2002, 2004, 2006, 2010, 2012, 2014, 2016, 2018, 2021, 2022\n\n\ntvhours\nOn average, how many hours per day do you watch television?\nAll\n\n\nhsbio\nDid you take a biology course in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhschem\nDid you take a chemistry course in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhsmath\nWhat is the highest level of mathematics you completed in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhsphys\nDid you take a physics course in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhsclass1\nWhen you were in high school, what was your favorite course or subject?\n1993\n\n\ndipged\nWhich best describes the credential you received from high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\neduc\nWhat is the highest year of school you have completed?\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\ndegree\nWhat is the highest degree you have earned?\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\ncoldeg1\nWhat is the highest college degree you have earned?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nmajorcol\nWhat was your major or field of study for your college degree?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\ncolsci\nHave you ever taken a college-level science course?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nwhencol\nIn what year did you receive your college degree?\n2012, 2014, 2016\n\n\nvoedcol\nHave you completed any non-college postsecondary education?\n2012, 2014, 2016\n\n\npaeduc\nWhat is the highest year of school completed by your father (or oldest same-sex parent)?\nAll\n\n\nmaeduc\nWhat is the highest year of school completed by your mother (or youngest same-sex parent)?\nAll\n\n\npadeg\nWhat is the highest degree earned by your father (or oldest same-sex parent)?\nAll\n\n\nmadeg\nWhat is the highest degree earned by your mother (or youngest same-sex parent)?\nAll\n\n\nconeduc\nHow much confidence do you have in the education system?\nAll\n\n\nnateduc\nAre we spending too much, too little, or about the right amount on improving the nation’s education system?\nAll\n\n\nnatenvir\nAre we spending too much, too little, or about the right amount on improving and protecting the environment?\nAll\n\n\nhappy\nTaken all together, how would you say things are these days?\nAll\n\n\nhappy7\nTaking all things together, how happy would you say you are these days?\n2002, 2012, 2022\n\n\nhapunhap\nWould you say you are generally happy or unhappy with your life today?\n2002, 2008, 2018\n\n\ngoodlife\nDo you think your standard of living will get better, worse, or stay about the same?\nAll\n\n\nopclout\nHow important is having political connections for getting ahead in life?\n1987, 2021\n\n\nophrddwrk\nHow important is working hard for getting ahead in life?\n1987, 2021\n\n\nopknow\nHow important is knowing the right people for getting ahead in life?\n1987, 2000, 2021\n\n\nopwlth\nHow important is coming from a wealthy family for getting ahead in life?\n1987, 2000, 2021\n\n\nopeduc\nHow important is having a good education for getting ahead in life?\n1987, 2021",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Survey Questions, Variables, & Years</span>"
+    ]
+  },
+  {
+    "objectID": "var.html#names-descriptions",
+    "href": "var.html#names-descriptions",
+    "title": "Variables",
+    "section": "",
+    "text": "Variable Availability by Year\n\n\n\nUnless otherwise noted, variables are available for survey years 1987, 1993, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, and 2024.\n\n\n\n\n\n\n\n\n\nVariable Name\nDescription\n\n\n\n\nid\nRespondent ID number\n\n\nbirth_year\nRespondent’s year of birth\n\n\nsurvey_year\nSurvey year for this respondent\n\n\nage\nRespondent’s age\n\n\nage_group\nRespondent’s age group\n\n\nsex\nRespondent’s sex\n\n\nreg16\nRespondent’s region of residence at age 16\n\n\nregion\nRespondent’s region at time of interview\n\n\nborn\nWhether respondent was born in the United States\n\n\nparborn\nWhether respondent’s parents were born in the United States\n\n\ngranborn\nNumber of respondent’s grandparents born in the United States\n\n\nwrkstat\nRespondent’s labor force status\n\n\nyearsjob\nNumber of years respondent has been at current job\n\n\nmoredays\nNumber of days per month respondent works extra hours beyond usual schedule\n\n\nhrsrelax\nNumber of hours respondent has to relax or pursue enjoyable activities\n\n\nwwwhr\nHours per week respondent spends browsing the internet (excluding email)\n\n\ntvhours\nHours per day respondent spends watching television\n\n\nhsbio\nWhether respondent took a high school biology course\n\n\nhschem\nWhether respondent took a high school chemistry course\n\n\nhsmath\nHighest level of math completed by respondent in high school\n\n\n\nWhether respondent took a high school physics course\n\n\nhsclass1\nRespondent’s favorite high school course\n\n\ndipged\nType of high school credential earned by respondent\n\n\neduc\nHighest year of school completed by respondent\n\n\ndegree\nRespondent’s highest degree earned\n\n\ncoldeg1\nHighest college degree earned by respondent\n\n\nmajorcol\nField of respondent’s college degree\n\n\ncolsci\nWhether respondent has taken any college-level science course\n\n\nwhencol\nYear respondent received highest college degree\n\n\nvoedcol\nWhether respondent completed non-college postsecondary education\n\n\npaeduc\nHighest year of school completed by respondent’s father (or oldest same-sex parent)\n\n\nmaeduc\nHighest year of school completed by respondent’s mother (or youngest same-sex parent)\n\n\npadeg\nHighest degree earned by respondent’s father (or oldest same-sex parent)\n\n\nmadeg\nHighest degree earned by respondent’s mother (or youngest same-sex parent)\n\n\nconeduc\nRespondent’s confidence in the education system\n\n\nnateduc\nOpinion on improving the nation’s education system\n\n\nnatenvir\nOpinion on improving and protecting the environment\n\n\nhappy\nRespondent’s general happiness\n\n\nhappy7\nRespondent’s self-reported happiness level\n\n\nhapunhap\nWhether respondent is happy or unhappy with life today\n\n\ngoodlife\nWhether respondent believes their standard of living will improve\n\n\nopclout\nBelief that political connections are needed to get ahead\n\n\nophrddwrk\nBelief that working hard is needed to get ahead\n\n\nopknow\nBelief that knowing the right people is needed to get ahead\n\n\nopwlth\nBelief that coming from a wealthy family is needed to get ahead\n\n\nopeduc\nBelief that a good education is needed to get ahead",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variables</span>"
+    ]
+  },
+  {
+    "objectID": "var.html#categories-years",
+    "href": "var.html#categories-years",
+    "title": "Variables",
+    "section": "Categories & Years",
+    "text": "Categories & Years\nThis table groups variables by topic area and indicates the survey years in which each variable is available. It can be used to identify which variables support comparisons across time.\n\n\n\n\n\n\n\n\nCategory\nVariable\nYears Available\n\n\n\n\nIdentifiers & Administrative\n\n\n\n\n\nid\nAll\n\n\n\nsurvey_year\nAll\n\n\n\nbirth_year\nAll\n\n\nAge & Demographics\n\n\n\n\n\nage\nAll\n\n\n\nage_group\nAll\n\n\n\nsex\nAll\n\n\nGeographic Background\n\n\n\n\n\nregion\nAll\n\n\n\nreg16\nAll\n\n\nNativity & Family Background\n\n\n\n\n\nborn\nAll\n\n\n\nparborn\nAll\n\n\n\ngranborn\nAll\n\n\nEmployment, Work, & Time Use\n\n\n\n\n\nwrkstat\nAll\n\n\n\nyearsjob\n2002, 2006, 2010, 2014, 2018, 2022\n\n\n\nmoredays\n2002, 2006, 2010, 2014, 2018, 2022\n\n\n\nhrsrelax\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nTechnology & Media Use\n\n\n\n\n\nwwwhr\n2000, 2002, 2004, 2006, 2010, 2012, 2014, 2016, 2018, 2021, 2022\n\n\n\ntvhours\nAll\n\n\nEducation (Respondent)\n\n\n\n\n\neduc\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\ndegree\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\ncoldeg1\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nmajorcol\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\ncolsci\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nwhencol\n2012, 2014, 2016\n\n\n\nvoedcol\n2012, 2014, 2016\n\n\n\ndipged\n2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\n\nhsclass1\n1993\n\n\nEducation (High School Coursework)\n\n\n\n\n\nhsbio\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nhschem\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nhsmath\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\n\nhsphys\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nEducation (Parental Background)\n\n\n\n\n\npaeduc\nAll\n\n\n\nmaeduc\nAll\n\n\n\npadeg\nAll\n\n\n\nmadeg\nAll\n\n\nEducation & Public Institutions (Attitudes)\n\n\n\n\n\nconeduc\nAll\n\n\n\nnateduc\nAll\n\n\nEnvironment & Public Policy Attitudes\n\n\n\n\n\nnatenvir\nAll\n\n\nHappiness & Well-Being\n\n\n\n\n\nhappy\nAll\n\n\n\nhappy7\n2002, 2012, 2022\n\n\n\nhapunhap\n2002, 2008, 2018\n\n\n\ngoodlife\nAll\n\n\nSocial Mobility & Opportunity Beliefs\n\n\n\n\n\nopclout\n1987, 2021\n\n\n\nophrddwrk\n1987, 2021\n\n\n\nopknow\n1987, 2000, 2021\n\n\n\nopwlth\n1987, 2000, 2021\n\n\n\nopeduc\n1987, 2021",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variables</span>"
+    ]
+  },
+  {
+    "objectID": "var.html#survey-questions-years",
+    "href": "var.html#survey-questions-years",
+    "title": "Variables",
+    "section": "Survey Questions & Years",
+    "text": "Survey Questions & Years\nThis table maps each variable to the original survey question and lists the years in which the question was asked. It helps clarify how variables were measured and when they appear in the dataset.\n\n\n\n\n\n\n\n\nVariable\nSurvey Question\nYears Asked\n\n\n\n\nid\nAdministrative identifier; not a survey question.\nAll\n\n\nbirth_year\nDerived from age and survey year; not asked directly.\nAll\n\n\nsurvey_year\nAdministrative variable indicating year of interview.\nAll\n\n\nage\nWhat is your age?\nAll\n\n\nage_group\nDerived from respondent age; not asked directly.\nAll\n\n\nsex\nWhat is your sex?\nAll\n\n\nreg16\nIn what region did you live when you were 16 years old?\nAll\n\n\nregion\nIn what region do you currently live?\nAll\n\n\nborn\nWere you born in the United States?\nAll\n\n\nparborn\nWere your parents born in the United States?\nAll\n\n\ngranborn\nHow many of your grandparents were born outside the United States?\nAll\n\n\nwrkstat\nWhat is your current labor force status?\nAll\n\n\nyearsjob\nHow many years have you been working at your current job?\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nmoredays\nAbout how many days per month do you work extra hours beyond your usual schedule?\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nhrsrelax\nAbout how many hours do you have to relax or pursue activities that you enjoy?\n2002, 2006, 2010, 2014, 2018, 2022\n\n\nwwwhr\nOn average, how many hours per week do you use the Internet for browsing, not counting email?\n2000, 2002, 2004, 2006, 2010, 2012, 2014, 2016, 2018, 2021, 2022\n\n\ntvhours\nOn average, how many hours per day do you watch television?\nAll\n\n\nhsbio\nDid you take a biology course in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhschem\nDid you take a chemistry course in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhsmath\nWhat is the highest level of mathematics you completed in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhsphys\nDid you take a physics course in high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nhsclass1\nWhen you were in high school, what was your favorite course or subject?\n1993\n\n\ndipged\nWhich best describes the credential you received from high school?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\neduc\nWhat is the highest year of school you have completed?\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\ndegree\nWhat is the highest degree you have earned?\n2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024\n\n\ncoldeg1\nWhat is the highest college degree you have earned?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nmajorcol\nWhat was your major or field of study for your college degree?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\ncolsci\nHave you ever taken a college-level science course?\n2006, 2008, 2010, 2012, 2014, 2016, 2018\n\n\nwhencol\nIn what year did you receive your college degree?\n2012, 2014, 2016\n\n\nvoedcol\nHave you completed any non-college postsecondary education?\n2012, 2014, 2016\n\n\npaeduc\nWhat is the highest year of school completed by your father (or oldest same-sex parent)?\nAll\n\n\nmaeduc\nWhat is the highest year of school completed by your mother (or youngest same-sex parent)?\nAll\n\n\npadeg\nWhat is the highest degree earned by your father (or oldest same-sex parent)?\nAll\n\n\nmadeg\nWhat is the highest degree earned by your mother (or youngest same-sex parent)?\nAll\n\n\nconeduc\nHow much confidence do you have in the education system?\nAll\n\n\nnateduc\nAre we spending too much, too little, or about the right amount on improving the nation’s education system?\nAll\n\n\nnatenvir\nAre we spending too much, too little, or about the right amount on improving and protecting the environment?\nAll\n\n\nhappy\nTaken all together, how would you say things are these days?\nAll\n\n\nhappy7\nTaking all things together, how happy would you say you are these days?\n2002, 2012, 2022\n\n\nhapunhap\nWould you say you are generally happy or unhappy with your life today?\n2002, 2008, 2018\n\n\ngoodlife\nDo you think your standard of living will get better, worse, or stay about the same?\nAll\n\n\nopclout\nHow important is having political connections for getting ahead in life?\n1987, 2021\n\n\nophrddwrk\nHow important is working hard for getting ahead in life?\n1987, 2021\n\n\nopknow\nHow important is knowing the right people for getting ahead in life?\n1987, 2000, 2021\n\n\nopwlth\nHow important is coming from a wealthy family for getting ahead in life?\n1987, 2000, 2021\n\n\nopeduc\nHow important is having a good education for getting ahead in life?\n1987, 2021",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variables</span>"
+    ]
+  },
+  {
+    "objectID": "var.html#missing-non-substantive-codes",
+    "href": "var.html#missing-non-substantive-codes",
+    "title": "Variables",
+    "section": "Missing & Non-Substantive Codes",
+    "text": "Missing & Non-Substantive Codes\nThis section describes codes used to represent missing, inapplicable, or non-substantive responses in the GSS. Missing and non-substantive codes appear in survey data when a question does not apply to a respondent, was skipped, or could not be answered. These values are not errors.\nSome missing values occur because a question was never asked (for example, it was not included in a particular survey year), while others reflect meaningful responses such as “don’t know” or “not applicable.”\nWhen analyzing the data, these codes should be handled intentionally. In most cases, they should be excluded from summaries and visualizations, rather than treated as valid responses.\n\n\n\n\n\n\n\n\nCode\nMeaning\nNotes & When It Appears\n\n\n\n\nNaN\nMissing value (numeric)\nPandas missing value; appears in numeric columns\n\n\n.i:  Inapplicable\nInapplicable\nQuestion does not apply due to skip patterns or survey design\n\n\n.n:  No answer\nNo answer\nQuestion was asked, but no valid response recorded\n\n\n.d:  Do not Know/Cannot Choose\nDon’t know / cannot choose\nRespondent could not or would not provide a substantive answer\n\n\n.s:  Skipped on Web\nSkipped on web\nRespondent skipped the question in web-based surveys\n\n\n.y:  Not available in this year\nNot asked in this year\nVariable not included in that survey year\n\n\n\n\n\n\n\n\n\nWorking with Missing Values\n\n\n\nMissing and non-substantive codes are not errors. They indicate when a question did not apply, was skipped, or could not be answered. These values should usually be excluded from summaries and visualizations.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variables</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Video Resources\nThe General Social Survey (GSS) YouTube channel has an educational video series designed to support instructors, students, and researchers using GSS data.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#video-resources",
+    "href": "resources.html#video-resources",
+    "title": "Resources",
+    "section": "",
+    "text": "Introduction to the GSS\nProvides a brief overview of the GSS, including its history, key stakeholders, and selected academic contributions. The video positions the GSS as a widely used data resource for undergraduate instruction and research.\n\n\nGSS Project Process & Life Cycle\nExplains the full lifecycle of the GSS survey, including proposal review, testing, programming, pilot studies, data collection, cleaning, dissemination, and user support.\n\n\nThe GSS Structure & Basics\nDescribes the structure of the GSS, including core content, experiments, cross-sectional and panel studies, ISSP modules, and the balloting process. The video also covers basic skills for navigating, downloading, and interpreting GSS data.\n\n\nSampling in the GSS\nExplains how representative samples are drawn for the GSS and introduces key sampling concepts used in the survey.\n\n\nTotal Survey Error in the GSS\nDiscusses sources of error in survey data, including nonresponse error, coverage error, sampling error, and measurement error.\n\n\nGSS Wording Experiments\nProvides examples of how question wording affects responses, highlighting GSS contributions to understanding measurement effects (e.g., national spending priority items).\n\n\nThe GSS Data Explorer\nOffers a tutorial on using the GSS Data Explorer, including online analytics, visualizations, and features introduced in Data Explorer 2.0.\n\n\nGSS for Educators\nTargeted to instructors, this video shares ideas for incorporating GSS data into lesson plans and classroom activities.\n\n\nGSS for STEM\nFocuses on working with data beyond survey responses, including paradata and linked datasets such as the death index.\n\n\nTaking a Deep Dive into GSS Content\nProvides an overview of major variable groups and content areas, highlighting resources and recent trends relevant to researchers and educators.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "dataset.html#the-project-dataset",
+    "href": "dataset.html#the-project-dataset",
+    "title": "Dataset",
+    "section": "The Project Dataset",
+    "text": "The Project Dataset\nThe dataset used for this project is a subset of the full GSS dataset, downloaded on December 31, 2025. The original dataset contained 46 variables and 75,699 observations.\n\nData Preparation & Cleaning\nThe dataset used in this project is based on the original GSS data but includes pre-processing steps to support classroom use and analysis.\nThe following changes were made prior to student use:\n\nA subset of variables and observations relevant to the project was selected.\nNon-substantive response codes (e.g., .i:  Inapplicable, .n:  No answer) were kept in their original form; some were removed or recoded during cleaning.\nThe variable age_group was created.\nVariables originally labeled cohort and year were renamed to birth_year and survey_year.\nThe variable wwwhr was recoded from categorical response values to numeric.\nThe dataset was filtered to include respondents age 51 and under.\n\nThese steps were taken to reduce complexity while preserving the structure and integrity of the original survey data.\nTeachers and students should be aware that the dataset is not a raw extract from the GSS, but a prepared version intended for instructional use.\n\n\nTidy and Tame Data Considerations\nThe project dataset has been prepared to follow principles of tidy data (Wickham 2014) and tame data (Kim, Ismay, and Chunn 2018) to support exploratory analysis.\nIn this dataset:\n\nEach row represents a single institution.\nEach column represents a single variable.\nEach cell contains a single, well-defined value.\n\nVariables were also selected and organized to make the dataset tame, meaning, manageable, interpretable, and appropriate for classroom analysis. This includes limiting the number of variables, using consistent naming conventions, and providing variables that are meaningful for comparative analysis across institutions.\nThese design choices reduce unnecessary data wrangling and allow students to focus on asking questions, exploring patterns, and interpreting results, while still working with authentic, real-world data.\n\n\n\n\nKim, Albert Y., Chester Ismay, and Jennifer Chunn. 2018. “The Fivethirtyeight r Package: ’Tame Data’ Principles for Introductory Statistics and Data Science Courses.” Technology Innovations in Statistics Education 11 (1). https://escholarship.org/uc/item/0rx1231m.\n\n\nWickham, Hadley. 2014. “Tidy Data.” Journal of Statistical Software 59. https://doi.org/10.18637/jss.v059.i10.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Dataset</span>"
+    ]
+  },
+  {
+    "objectID": "nbs.html",
+    "href": "nbs.html",
+    "title": "4  Notebooks",
+    "section": "",
+    "text": "4.1 Jupyter Notebooks\nThis project is implemented using Jupyter notebooks, which serve as the primary workspace for data analysis. Jupyter notebooks combine code, text, and visual output in a single environment.\nA reference guide summarizing the Python libraries, functions, and methods used across the notebooks is provided later in this guide.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Notebooks</span>"
+    ]
+  },
+  {
+    "objectID": "nbs.html#notebook-descriptions",
+    "href": "nbs.html#notebook-descriptions",
+    "title": "4  Notebooks",
+    "section": "4.2 Notebook Descriptions",
+    "text": "4.2 Notebook Descriptions\n\n4.2.1 Notebook 1: Introduction to Jupyter Notebooks (Optional)\nIntroduces the Jupyter notebook environment and basic workflow, including running cells, editing code, and formatting text.\n\n\n4.2.2 Notebook 2: Basic Python and Data Structures\nIntroduces Python data structures for students transitioning from Java, with a focus on lists, dictionaries, and iteration as tools for working with data.\n\n\n4.2.3 Notebook 3: Pandas and Basic Data Exploration\nIntroduces Pandas for loading datasets, inspecting variables, and computing basic summary statistics.\n\n\n4.2.4 Notebook 4: Visualizing Distributions\nIntroduces Matplotlib for creating visualizations to explore and interpret the distribution of numerical variables.\n\n\n4.2.5 Notebook 5: Visualizing Trends\nExamines patterns and trends over time using computational tools and visual evidence.\n\n\n4.2.6 Notebook 6: Exploring Relationships and Trends\nEmphasizes student choice by allowing students to explore questions of interest, investigate relationships between variables, and support claims with data.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Notebooks</span>"
+    ]
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "6  Code Reference",
+    "section": "",
+    "text": "6.1 Python Libraries Used\nPython libraries are collections of prewritten code that support common tasks. This project uses pandas for data analysis and matplotlib for data visualization.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Code Reference</span>"
+    ]
+  },
+  {
+    "objectID": "code.html#python-libraries-used",
+    "href": "code.html#python-libraries-used",
+    "title": "6  Code Reference",
+    "section": "",
+    "text": "6.1.1 Pandas\npandas is a Python library used for working with structured, tabular data. It provides tools for loading datasets, selecting and transforming variables, computing summary statistics, and preparing data for analysis.\n\n\n6.1.2 Matplotlib\nmatplotlib is a Python library used for creating visual representations of data. In this project, it is used to generate charts and graphs to explore distributions, compare groups, and examine trends.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Code Reference</span>"
+    ]
+  },
+  {
+    "objectID": "code.html#common-data-structures",
+    "href": "code.html#common-data-structures",
+    "title": "6  Code Reference",
+    "section": "6.2 Common Data Structures",
+    "text": "6.2 Common Data Structures\n\nlists\ndictionaries\nDataFrames",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Code Reference</span>"
+    ]
+  },
+  {
+    "objectID": "code.html#common-methods-and-functions",
+    "href": "code.html#common-methods-and-functions",
+    "title": "6  Code Reference",
+    "section": "6.3 Common Methods and Functions",
+    "text": "6.3 Common Methods and Functions\n\nReading data\nFiltering rows\nGrouping and summarizing\nCreating plots",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Code Reference</span>"
+    ]
+  },
+  {
+    "objectID": "tips.html",
+    "href": "tips.html",
+    "title": "Helpful Notebook Tips",
+    "section": "",
+    "text": "Introduction to Jupyter Notebook\nA Jupyter Notebook is a web-based interactive computing environment that supports programming in Python, R, and other languages (Stokes and Harding 2025). In this project, you will use Jupyter Notebooks to write code, explore data, and document your analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Helpful Notebook Tips</span>"
+    ]
+  },
+  {
+    "objectID": "tips.html#jupyter-notebook",
+    "href": "tips.html#jupyter-notebook",
+    "title": "4  Helpful Notebook Tips",
+    "section": "",
+    "text": "Avoid Multiple Tabs\n\n\n\nAvoid opening multiple notebooks in separate tabs, as this can lead to memory overload, forcing you to restart your session.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Helpful Notebook Tips</span>"
+    ]
+  },
+  {
+    "objectID": "tips.html#code-text-cells",
+    "href": "tips.html#code-text-cells",
+    "title": "Helpful Notebook Tips",
+    "section": "Code & Text Cells",
+    "text": "Code & Text Cells\nA Jupyter Notebook has three types of cells. For this project, you will use only two:\n\nCode cells for writing and running Python code\nMarkdown or text cells for entering written responses.\n\n\nRunning Cells in a Jupyter Notebook\nIn a Jupyter Notebook, you run cells one at a time to see code output or display formatted text. To run a cell, click inside the cell and then click the Run button in the toolbar at the top of the notebook.\n\n\n\nRun button in the Jupyter toolbar\n\n\nYou can also use keyboard shortcuts:\n\nPCs and Chromebooks: Hold Ctrl and press Enter\nMacs: Hold Command (⌘) and press Enter\n\n\n\nAdding Cells\nUse the + button in the top toolbar to add a new cell.\n\n\n\n+ button in the Jupyter toolbar\n\n\nThen set the cell type as needed:\n\n\n\nCode or Markdown button in the Jupyter toolbar\n\n\n\nChoose Code for code\nChoose Markdown for text\n\n\n\nRunning All Cells from Top Down\nThe Save button saves your code and text, but it does not save data stored in memory. Whenever you reopen a notebook, you should re-run all code cells from the top.\nTo do this, go to Kernel → Restart & Run All.\n\n\n\n\n\n\nRestart & Run All\n\n\n\nThis option restarts the notebook and runs every cell in order from top to bottom. If a code cell encounters an error, execution will stop and later cells will not run.\n\n\n\n\n\nRestart & Run All button in the Jupyter toolbar\n\n\n\n\n\n\nStokes, David J., and Mahmoud Harding. 2025. “A Project-Based Approach to Introductory R and Python for Data Science.” https://djstokes02.github.io/IntroRPython4DS/.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Helpful Notebook Tips</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html",
+    "href": "commands.html",
+    "title": "Useful Python Commands",
+    "section": "",
+    "text": "Notebook 1: Basic Python & Data Structures",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#purpose",
+    "href": "commands.html#purpose",
+    "title": "5  Introduction",
+    "section": "",
+    "text": "Data Science Tools Used\n\n\n\nThis project uses Python with the pandas library for data manipulation (McKinney 2010) and the matplotlib library for data visualization (Hunter 2007).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#dataset",
+    "href": "commands.html#dataset",
+    "title": "5  Introduction",
+    "section": "5.2 Dataset",
+    "text": "5.2 Dataset\nThe project uses data from the General Social Survey (GSS). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the National Opinion Research Center (NORC), the non-partisan and objective research organization at the University of Chicago. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.\nThe GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are education, civil liberties, national spending priorities, psychological well-being, and social mobility. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#standards-alignment",
+    "href": "commands.html#standards-alignment",
+    "title": "5  Introduction",
+    "section": "5.3 Standards Alignment",
+    "text": "5.3 Standards Alignment\nThe project aligns with both the Programming and Data & Analysis topics from the Computer Science Teachers Association (CSTA) Standards and the Data Science Learning Progressions.\n\n\n\n\nHunter, John D. 2007. “Matplotlib: A 2D Graphics Environment.” Computing in Science & Engineering 9 (3): 90–95. https://matplotlib.org/.\n\n\nMcKinney, Wes. 2010. “Data Structures for Statistical Computing in Python.” Proceedings of the 9th Python in Science Conference, 56–61. https://doi.org/10.25080/Majora-92bf1922-00a.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#notebook-3-pandas-basic-data-exploration",
+    "href": "commands.html#notebook-3-pandas-basic-data-exploration",
+    "title": "Useful Python Commands",
+    "section": "Notebook 3: Pandas & Basic Data Exploration",
+    "text": "Notebook 3: Pandas & Basic Data Exploration\n\n1.0 – Python Libraries: Pandas\n\n\n2.0 – Exploring the Dataset with Pandas Methods\n\nMethods (introduces object-based functions using dot notation)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#notebook-4-visualizing-distributions",
+    "href": "commands.html#notebook-4-visualizing-distributions",
+    "title": "Useful Python Commands",
+    "section": "Notebook 4: Visualizing Distributions",
+    "text": "Notebook 4: Visualizing Distributions\n\n1.0 – Python Libraries\n\n\n2.0 – Visualizing Data (Histograms, Bar Charts, & Boxplots)\n\nHistograms",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#notebook-5-visualizing-trends",
+    "href": "commands.html#notebook-5-visualizing-trends",
+    "title": "Useful Python Commands",
+    "section": "Notebook 5: Visualizing Trends",
+    "text": "Notebook 5: Visualizing Trends\n\n1.0 – Python Libraries\n\n\n3.0 – Visualizing Data (Multi-Line Charts)\n\nMulti-Line Charts",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#notebook-6-exploring-relationships-trends-in-survey-data",
+    "href": "commands.html#notebook-6-exploring-relationships-trends-in-survey-data",
+    "title": "Useful Python Commands",
+    "section": "Notebook 6: Exploring Relationships & Trends in Survey Data",
+    "text": "Notebook 6: Exploring Relationships & Trends in Survey Data\n\nOverview of the Steps\n\nChoose two variables to compare (groups or time + a survey question response).\nDecide whether you are examining a relationship or a trend.\nWrite a comparison question.\nPrepare the data for analysis.\nCreate summaries and visualizations.\nDescribe what the data shows.\n\n\n\n3.0 – Data Exploration & Visualization\n\nInsert code cells to create summaries and visualizations.\nAfter each code cell, add a short explanation of what the output shows and how it helps answer the question.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#notebook-2-basic-python-data-structures",
+    "href": "commands.html#notebook-2-basic-python-data-structures",
+    "title": "Useful Python Commands",
+    "section": "",
+    "text": "1.0 – Python for This Project: Variables & Assignment\n\n\n2.0 – Python for This Project: Data Structures\n\nLists\n(Dictionaries are introduced in this same section, alongside lists.)\n\n\n\n4.0 – For Loops in Python",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
+    ]
+  },
+  {
+    "objectID": "tips.html#introduction-to-jupyter-notebook",
+    "href": "tips.html#introduction-to-jupyter-notebook",
+    "title": "Helpful Notebook Tips",
+    "section": "",
+    "text": "Overview of a Jupyter Notebook\nJupyter notebooks allow users to create and share documents that combine code, equations, visualizations, and formatted text (Stokes and Harding 2025). They are commonly used for data science because users can write and run code step by step, document their thinking, and view results directly alongside the code that produced them.\n\n\n\n\n\n\nAvoid Multiple Tabs\n\n\n\nAvoid opening multiple notebooks in separate tabs, as this can lead to memory overload, forcing you to restart your session.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Helpful Notebook Tips</span>"
+    ]
+  },
+  {
+    "objectID": "commands.html#notebook-1-basic-python-data-structures",
+    "href": "commands.html#notebook-1-basic-python-data-structures",
+    "title": "Useful Python Commands",
+    "section": "",
+    "text": "Variables and Assignment\nPython variables are created by assignment. A valid Python variable name must start with a letter or an underscore, use only letters, numbers, and underscores, and can’t be a reserved Python keyword.\nExample\n\n_five = 5\npi = 3.14159\ncourse_name = \"Data Science\"\n\nprint(_five)\nprint(pi)\nprint(course_name)\n\n5\n3.14159\nData Science\n\n\n\n\nNumeric Operations\nPython supports standard arithmetic operations.\nExample\n\nprint(_five + pi)\nprint(_five * pi)\nprint(_five / 2)\nprint(_five ** 2)\n\n8.14159\n15.70795\n2.5\n25\n\n\n\n\nLists\nLists store ordered collections of values. They can contain elements of different data types such as numbers, strings, and booleans.\nExample\n\nnumbers = [1, 2, \"3\", 4, 5]\nmixed_list = [True, 2.0, 3, \"four\", 5.]\n\nprint(numbers)\nprint(mixed_list)\n\n[1, 2, '3', 4, 5]\n[True, 2.0, 3, 'four', 5.0]\n\n\n\n\n2.0 – Python for This Project: Data Structures\n\nLists\n(Dictionaries are introduced in this same section, alongside lists.)\n\n\n\n4.0 – For Loops in Python",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
+    ]
+  }
+]

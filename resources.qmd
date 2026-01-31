@@ -1,0 +1,47 @@
+---
+title: Resources
+---
+
+## Video Resources
+
+The [General Social Survey (GSS) YouTube channel](https://www.youtube.com/@GSS_NORC/playlists) has an educational video series designed to support instructors, students, and researchers using GSS data.
+
+### [Introduction to the GSS](https://youtu.be/jBb2mCmCcOk)
+
+Provides a brief overview of the GSS, including its history, key stakeholders, and selected academic contributions. The video positions the GSS as a widely used data resource for undergraduate instruction and research.
+
+### [GSS Project Process & Life Cycle](https://youtu.be/0TfXz3rhEeA?si=HE26cddySUzYl5OH)
+
+Explains the full lifecycle of the GSS survey, including proposal review, testing, programming, pilot studies, data collection, cleaning, dissemination, and user support.
+
+### [The GSS Structure & Basics](https://youtu.be/YAsUcXed-nI?si=MnZ-uld-IkRzqVQm)
+
+Describes the structure of the GSS, including core content, experiments, cross-sectional and panel studies, ISSP modules, and the balloting process. The video also covers basic skills for navigating, downloading, and interpreting GSS data.
+
+### [Sampling in the GSS](https://youtu.be/NiDYfhtRZ2U?si=_bxyBpN7TPLZhQgK)
+
+Explains how representative samples are drawn for the GSS and introduces key sampling concepts used in the survey.
+
+### [Total Survey Error in the GSS](https://youtu.be/2IW1Vg-8-bw?si=wTsDwu5nog4d_HFC)
+
+Discusses sources of error in survey data, including nonresponse error, coverage error, sampling error, and measurement error.
+
+### [GSS Wording Experiments](https://youtu.be/x0IMspZwIdI?si=k4KMgy4LSDW4xV1r)
+
+Provides examples of how question wording affects responses, highlighting GSS contributions to understanding measurement effects (e.g., national spending priority items).
+
+### [The GSS Data Explorer](https://youtu.be/-sOcDPrytkY?si=38ve_G-BS0JC16ms)
+
+Offers a tutorial on using the GSS Data Explorer, including online analytics, visualizations, and features introduced in Data Explorer 2.0.
+
+### [GSS for Educators](https://youtu.be/zCaISoNIDQk?si=JbRMwIzBDCErcaRn)
+
+Targeted to instructors, this video shares ideas for incorporating GSS data into lesson plans and classroom activities.
+
+### [GSS for STEM](https://youtu.be/I94Do1Lwm_o?si=_IU1797Tucivypqe)
+
+Focuses on working with data beyond survey responses, including paradata and linked datasets such as the death index.
+
+### [Taking a Deep Dive into GSS Content](https://youtu.be/VmOvWq7OYFs?si=IPmmSW9_0S4QZ2zL)
+
+Provides an overview of major variable groups and content areas, highlighting resources and recent trends relevant to researchers and educators.
