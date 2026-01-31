@@ -34,7 +34,7 @@
     "href": "intro.html#dataset",
     "title": "Introduction",
     "section": "Dataset",
-    "text": "Dataset\nThe project uses data from the General Social Survey (GSS). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the National Opinion Research Center (NORC), the non-partisan and objective research organization at the University of Chicago. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.\nThe GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are education, civil liberties, national spending priorities, psychological well-being, and social mobility. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups.",
+    "text": "Dataset\nThe project uses data from the General Social Survey (GSS). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the National Opinion Research Center (NORC), the non-partisan and objective research organization at the University of Chicago. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.\nThe GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are education, civil liberties, national spending priorities, psychological well-being, and social mobility. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups.\n\n\n\n\nHunter, John D. 2007. “Matplotlib: A 2D Graphics Environment.” Computing in Science & Engineering 9 (3): 90–95. https://matplotlib.org/.\n\n\nMcKinney, Wes. 2010. “Data Structures for Statistical Computing in Python.” Proceedings of the 9th Python in Science Conference, 56–61. https://doi.org/10.25080/Majora-92bf1922-00a.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -174,7 +174,7 @@
     "href": "commands.html#notebook-1-basic-python-data-structures",
     "title": "Useful Python Commands",
     "section": "",
-    "text": "Variables and Assignment\nPython variables are created by assignment. A valid Python variable name must start with a letter or an underscore, use only letters, numbers, and underscores, and can’t be a reserved Python keyword.\nExample\n\n_five = 5\npi = 3.14159\ncourse_name = \"Data Science\"\n\nprint(_five)\nprint(pi)\nprint(course_name)\n\n5\n3.14159\nData Science\n\n\n\n\nNumeric Operations\nPython supports standard arithmetic operations.\nExample\n\nprint(_five + pi)\nprint(_five * pi)\nprint(_five / 2)\nprint(_five ** 2)\n\n8.14159\n15.70795\n2.5\n25\n\n\n\n\nLists\nLists store ordered collections of values. They can contain elements of different data types such as numbers, strings, and booleans.\nExample\n\nnumbers = [1, 2, \"3\", 4, 5]\nmixed_list = [True, 2.0, 3, \"four\", 5.]\n\nprint(numbers)\nprint(mixed_list)\n\n[1, 2, '3', 4, 5]\n[True, 2.0, 3, 'four', 5.0]\n\n\n\n\n2.0 – Python for This Project: Data Structures\n\nLists\n(Dictionaries are introduced in this same section, alongside lists.)\n\n\n\n4.0 – For Loops in Python",
+    "text": "Variables and Assignment\nPython variables are created by assignment. A valid Python variable name must start with a letter or an underscore, use only letters, numbers, and underscores, and can’t be a reserved Python keyword.\nExample\n\ncourse_name = \"Data Science\"\npi = 3.14159\n_five = 5\n\nprint(_five)\nprint(pi)\nprint(course_name)\n\n5\n3.14159\nData Science\n\n\n\n\nNumeric Operations\nPython supports standard arithmetic operations.\nExample\n\nprint(_five + pi)\nprint(_five * pi)\nprint(_five / 2)\nprint(_five ** 2)\n\n8.14159\n15.70795\n2.5\n25\n\n\n\n\nLists\nLists store ordered collections of values. They can contain elements of different data types such as numbers, strings, and booleans.\nExample\n\nnumbers = [1, 2, \"3\", 4, 5]\nmixed_list = [True, 2.0, 3, \"four\", 5.]\n\nprint(numbers)\nprint(mixed_list)\n\n[1, 2, '3', 4, 5]\n[True, 2.0, 3, 'four', 5.0]\n\n\n\n\nNotebook 2: Pandas and Basic Data Exploration\n\n\nNotebook 3: Visualizing Distributions\n\n\nNotebook 4: Visualizing Trends\n\n\nNotebook 5: Exploring Relationships and Trends",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful Python Commands</span>"
     ]
@@ -247,6 +247,26 @@
     "text": "Hunter, John D. 2007. “Matplotlib: A 2D Graphics\nEnvironment.” Computing in Science & Engineering 9\n(3): 90–95. https://matplotlib.org/.\n\n\nKim, Albert Y., Chester Ismay, and Jennifer Chunn. 2018. “The\nFivethirtyeight r Package: ’Tame Data’ Principles for Introductory\nStatistics and Data Science Courses.” Technology Innovations\nin Statistics Education 11 (1). https://escholarship.org/uc/item/0rx1231m.\n\n\nMcKinney, Wes. 2010. “Data Structures for Statistical Computing in\nPython.” Proceedings of the 9th Python in Science\nConference, 56–61. https://doi.org/10.25080/Majora-92bf1922-00a.\n\n\nStokes, David J., and Mahmoud Harding. 2025. “A Project-Based\nApproach to Introductory R and Python for Data\nScience.” https://djstokes02.github.io/IntroRPython4DS/.\n\n\nWickham, Hadley. 2014. “Tidy Data.” Journal of\nStatistical Software 59. https://doi.org/10.18637/jss.v059.i10.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "partners.html",
+    "href": "partners.html",
+    "title": "Partners",
+    "section": "",
+    "text": "CourseKata\nThe After the AP Data Science Challenge uses Jupyter notebooks hosted on CKHub, developed by CourseKata. If this challenge sparked your interest, explore CourseKata.org) for more classroom-ready resources like these, including materials you can use throughout the year to supplement your regular curriculum.\nWe’re a nonprofit team of educators and learning scientists who build both full-year and supplementary statistics and data science curricula using the same kinds of Jupyter notebooks, real datasets, and modeling tools used in the challenge.\nOur technology and curriculum are designed to bring authentic data science practices into classrooms in ways that are teaching-friendly, meaningful, and equitable. Our research on lowering barriers to participation for students historically marginalized in STEM directly informs how we design our learning materials so more students can engage in mathematics that matters in the modern world.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Partners</span>"
+    ]
+  },
+  {
+    "objectID": "partners.html#coursekata",
+    "href": "partners.html#coursekata",
+    "title": "Partners",
+    "section": "",
+    "text": "CourseKata",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Partners</span>"
     ]
   }
 ]

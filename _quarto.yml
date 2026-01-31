@@ -20,6 +20,7 @@ book:
     - commands.qmd
     - resources.qmd
     - references.qmd
+    - partners.qmd
 
 bibliography: references.bib
 

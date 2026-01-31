@@ -12,9 +12,9 @@ Python variables are created by assignment. A valid Python variable name must st
 
 ```{python}
 #| label: py-variables
-_five = 5
-pi = 3.14159
 course_name = "Data Science"
+pi = 3.14159
+_five = 5
 
 print(_five)
 print(pi)
@@ -50,49 +50,7 @@ print(numbers)
 print(mixed_list)
 ```
 
-### 2.0 – Python for This Project: Data Structures
-
--   **Lists**
--   *(Dictionaries are introduced in this same section, alongside lists.)*
-
-### 4.0 – For Loops in Python
-
-## Notebook 3: Pandas & Basic Data Exploration
-
-### 1.0 – Python Libraries: Pandas
-
-### 2.0 – Exploring the Dataset with Pandas Methods
-
--   **Methods** (introduces object-based functions using dot notation)
-
-## Notebook 4: Visualizing Distributions
-
-### 1.0 – Python Libraries
-
-### 2.0 – Visualizing Data (Histograms, Bar Charts, & Boxplots)
-
--   **Histograms**
-
-## Notebook 5: Visualizing Trends
-
-### 1.0 – Python Libraries
-
-### 3.0 – Visualizing Data (Multi-Line Charts)
-
--   **Multi-Line Charts**
-
-## Notebook 6: Exploring Relationships & Trends in Survey Data
-
-### Overview of the Steps
-
-1.  Choose two variables to compare (groups or time + a survey question response).
-2.  Decide whether you are examining a relationship or a trend.
-3.  Write a comparison question.
-4.  Prepare the data for analysis.
-5.  Create summaries and visualizations.
-6.  Describe what the data shows.
-
-### 3.0 – Data Exploration & Visualization
-
--   Insert code cells to create summaries and visualizations.
--   After each code cell, add a short explanation of what the output shows and how it helps answer the question.
+### Notebook 2: Pandas and Basic Data Exploration
+### Notebook 3: Visualizing Distributions
+### Notebook 4: Visualizing Trends
+### Notebook 5: Exploring Relationships and Trends
