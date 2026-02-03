@@ -4,13 +4,13 @@ title: Dataset
 
 ## General Social Survey
 
-The project uses data from the [General Social Survey (GSS)](https://gss.norc.org/). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the [National Opinion Research Center (NORC)](https://www.norc.org/), the non-partisan and objective research organization at the University of Chicago. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.
+The project uses data from the [General Social Survey (GSS)](https://gss.norc.org/). The GSS is primarily funded by the National Science Foundation (NSF) and conducted by the [National Opinion Research Center (NORC)](https://www.norc.org/), a non-partisan research organization. The GSS collects data on a variety of topics in contemporary American society to monitor and explain trends in opinions, attitudes, and behaviors.
 
 The GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are education, civil liberties, national spending priorities, psychological well-being, and social mobility. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups.
 
 ## About the General Social Survey
 
-The GSS is a nationally representative series of cross-sectional interviews conducted in the United States since 1972. By adapting questions from earlier surveys, the GSS enables comparisons across decades. Originally proposed by James A. Davis, the survey has been administered by NORC at the University of Chicago and funded by the NSF since its inception. The GSS is currently designed by a set of Primary Investigators, with guidance from a Board of researchers.
+The GSS is a nationally representative series of cross-sectional interviews conducted in the United States since 1972. By adapting questions from earlier surveys, the GSS enables comparisons across decades. Originally proposed by James A. Davis, the survey has been administered by NORC at the University of Chicago and funded by the NSF since its inception. The GSS is currently designed by a set of Principal Investigators, with guidance from a Board of researchers.
 
 In response to the COVID-19 pandemic, the 2021 GSS implemented methodological changes, including a shift to address-based sampling with a push-to-web, self-administered questionnaire. The 2022 GSS was designed as a bridge between the traditional face-to-face data collection used from 1972–2018 and the web-based approach introduced in 2021. It retained many questionnaire changes from the web mode while returning to a mixed-mode design that included face-to-face, web, and telephone data collection. The 2022 GSS was structured to facilitate comparison with the 2018 GSS and represents the first stage of a broader transition to a mixed-mode survey.
 

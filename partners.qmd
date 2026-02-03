@@ -11,3 +11,5 @@ The After the AP Data Science Challenge uses Jupyter notebooks hosted on CKHub, 
 We’re a nonprofit team of educators and learning scientists who build both full-year and supplementary statistics and data science curricula using the same kinds of Jupyter notebooks, real datasets, and modeling tools used in the challenge.
 
 Our technology and curriculum are designed to bring authentic data science practices into classrooms in ways that are teaching-friendly, meaningful, and equitable. Our research on lowering barriers to participation for students historically marginalized in STEM directly informs how we design our learning materials so more students can engage in mathematics that matters in the modern world.
+
+## University of Minnesota Department of Educational Pyschology
